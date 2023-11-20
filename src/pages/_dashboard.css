@@ -1,0 +1,8 @@
+.indented-list {
+    padding-left: 50px; /* Adjust the value as needed for the desired indentation */
+  }
+  
+  .indented-list > li {
+    list-style: none; /* Remove default list styles */
+    margin-bottom: 5px; /* Adjust as needed for spacing between items */
+  }
