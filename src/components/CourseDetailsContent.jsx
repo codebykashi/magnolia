@@ -32,7 +32,7 @@ const ContactDetailsContent = () => {
         <p className="indented-list">
             • Last_name_first_name_movie_recommendation_homework <br/>
         </p> <br/>
-      <RedirectButton url="https://aaii-chat-gpt-movie-recommendation.azurewebsites.net/" text="Visit MS Teams" />
+      <RedirectButton url="https://login.microsoftonline.com" text="Visit MS Teams" />
     </div>
   );
 };

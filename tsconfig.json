@@ -28,20 +28,5 @@
   "include": ["src", "types", "src/**/*.tsx", "src/**/*.ts"],
   
   "exclude": ["node_modules"],
-  // "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
-
-
-// {
-//   "compilerOptions": {
-//     // ... other options
-
-//     "module": "CommonJS", // Change module to CommonJS
-//     "moduleResolution": "node", // Change moduleResolution to node
-//     "jsx": "react", // Ensure jsx is set to react
-
-//     // ... other options
-//   },
-
-//   // ... other configurations
-// }
