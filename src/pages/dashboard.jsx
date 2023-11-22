@@ -15,18 +15,26 @@ const Dashboard = () => {
     };
     
     return(
-        // <div>
-        //     <Sidebar updateMainContent={updateMainContent} />
-        //     <div style={{ marginLeft: '250px', padding: '20px' }}>
-        //         {mainContent}
-        //     </div>
-        //     <div style={{ marginTop: '20px', color: '#555', fontSize: '12px' }}>
-        //         &copy; 2024 Your Company Name. All rights reserved.
-        //     </div>
+        // <div style={{ display: 'flex', minHeight: '100vh' }}>
+        // <Sidebar updateMainContent={updateMainContent} />
+        // <div style={{ marginLeft: '250px', padding: '20px', paddingTop: '40px', flex: '1', position: 'relative' }}>
+        // {mainContent}
+        // </div>
+        // <div style={{ position: 'fixed', bottom: '20px', right: '20px', color: '#555', fontSize: '12px' }}>
+        //     Copyright &copy; AI Institute 2024
+        // </div>
         // </div>
         <div style={{ display: 'flex', minHeight: '100vh' }}>
       <Sidebar updateMainContent={updateMainContent} />
-      <div style={{ marginLeft: '250px', padding: '20px', paddingTop: '40px', flex: '1', position: 'relative' }}>
+      <div
+        style={{
+          marginLeft: '40px', // Adjust the left margin for left alignment
+          padding: '20px',
+          paddingTop: '60px', // Adjust the top padding for top spacing
+          flex: '1',
+          position: 'relative',
+        }}
+      >
         {mainContent}
       </div>
       <div style={{ position: 'fixed', bottom: '20px', right: '20px', color: '#555', fontSize: '12px' }}>

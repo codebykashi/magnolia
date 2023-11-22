@@ -6,7 +6,7 @@ import { AuthProvider } from "./utils/auth";
 
 function App() {
   return (
-    <AuthProvider>
+      <AuthProvider>
       <Routes>
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
